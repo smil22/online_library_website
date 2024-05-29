@@ -1,0 +1,179 @@
+body {
+	height: 100%;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)) , url("../_image/logo.png");
+	background-size: 100%;
+	background-position: center;
+	background-position-y: 10em;
+	background-attachment: fixed;
+}
+
+h3 {
+	position: relative;
+    float: right;
+	font-weight: bold;
+	/*display: inline-block;*/
+}
+
+h4 {
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+	color: darkblue;
+}
+
+p {
+	display: block;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: x-large;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40em;
+}
+
+h1 {
+    /*font-style: italic;*/
+	display: inline-block;
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+}
+
+.entrees {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 2px solid darkblue;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+textarea {
+	height: 150px;
+	line-height: 150%;
+}
+
+[type="submit"] {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width: 350px;
+	border-radius: 5px;
+	background: darkblue;
+	border:0;
+	font-size:24px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:700;
+	color: white;
+}
+
+[type="submit"]:hover {
+	background: darkslateblue; 
+}
+
+ul {
+	display: block;
+	width: 50%;
+}
+
+form#contact {
+	display: block;
+	padding-top: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20em;
+}
+
+form#recherche {
+	padding-left: 40px;
+	position: fixed;
+	display: block;
+	padding-top: 17px;
+}
+
+input.recherche {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 2px solid darkblue;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 300px;
+}
+
+[type="submit"].recherche {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width: 100%;
+	border-radius: 5px;
+	background: darkblue;
+	border:0;
+	font-size:24px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:700;
+	color: white;
+}
+
+[type="submit"].recherche:hover {
+	background: darkslateblue; 
+}
+
+
+li.dossier {
+	padding: 10px 0 10px 40px;
+	list-style: none;
+	background-image: url("../_image/folder_icon.webp");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+}
+
+li.fichier {
+	padding: 10px 0 10px 40px;
+	list-style: none;
+	background-image: url("../_image/file_icon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+}
+
+span.fichier {
+	padding: 10px 0 10px 40px;
+	background-image: url("../_image/file_icon.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;
+}
+
+span.dossier {
+	padding: 10px 0 10px 40px;
+	background-image: url("../_image/folder_icon.webp");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 30px;	
+}
+
+a {
+    text-decoration: none;
+    color:darkblue;
+	font-weight: bold;
+}
+
+li.dossier:hover, li.fichier:hover {
+    background-color: lightblue;
+}
+
+img.icone {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 4em;
+	padding-top: 10em;
+}
+
+  
